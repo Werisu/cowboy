@@ -1,0 +1,27 @@
+:root {
+  /* CSS HEX */
+  --night-rider: #120b09;
+  --tahiti-gold: #f3880f;
+  --snow-drift: #f1f5f2;
+  --primary: #e03106;
+  --trinidad: #f24d08;
+  --kumera: #976527;
+  --fruit-salad: #48934f;
+  --porsche: #e69f5f;
+  --confetti: #e9cd56;
+
+  --body: #fff;
+  --text-menu: #fff;
+  --text-body: #212529;
+  --bg-aux-gray: #f8f9fa;
+}
+
+:root .dark-theme{
+  --primary: #212529;
+  --body: #4B4B4B;
+  --text-menu: #fff;
+  --text-body: #fff;
+  --bg-aux-gray: #212529;
+  --bs-light-rgb: 33,37,41;
+  --bs-body-color: #fff;
+}
