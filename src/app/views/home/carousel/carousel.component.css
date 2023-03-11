@@ -1,0 +1,19 @@
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin-bottom: 20px;
+}
+
+.carousel-button {
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.carousel-button:hover {
+  background-color: #ddd;
+}

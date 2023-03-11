@@ -1,0 +1,26 @@
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin-bottom: 20px;
+}
+.image{
+  height: 250px; width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+.card{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.card-text{
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-body);
+}
+.preco{
+  font-weight: 700;
+  font-size: 16px;
+  color: #17B275;
+}
+

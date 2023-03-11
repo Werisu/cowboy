@@ -1,3 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('./styles/variables.css');
 @import url('./styles/main.css');
+
+html, body { height: 100%; }
+body { margin: 0; font-family: "cursive", Roboto, "Helvetica Neue", sans-serif !important; }
+
+@media (max-width: 400px) {
+  /* Para todos os elementos com overflow */
+  ::-webkit-scrollbar {
+    width: 0px; /* Tamanho da largura */
+    height: 0px; /* Tamanho da altura */
+  }
+
+  /* Para o Chrome */
+  ::-webkit-scrollbar-track {
+    background-color: transparent; /* Cor de fundo em transparência */
+  }
+}

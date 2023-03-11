@@ -12,16 +12,16 @@
 
   --body: #fff;
   --text-menu: #fff;
-  --text-body: #212529;
+  --text-body: #494949;
   --bg-aux-gray: #f8f9fa;
 }
 
 :root .dark-theme{
-  --primary: #212529;
+  --primary: #494949;
   --body: #4B4B4B;
   --text-menu: #fff;
   --text-body: #fff;
-  --bg-aux-gray: #212529;
+  --bg-aux-gray: #494949;
   --bs-light-rgb: 33,37,41;
   --bs-body-color: #fff;
 }
