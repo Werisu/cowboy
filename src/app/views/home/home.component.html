@@ -5,8 +5,10 @@
     <app-title title="Cowboy 44"></app-title>
     <app-card-type-b></app-card-type-b>
   </div>
-  <div class="mb-2">
-    <app-title title="Sanduíches"></app-title>
-    <app-card-type-a></app-card-type-a>
+  <div class="mb-2 d-flex flex-column gap-2">
+    <app-title title="CARDÁPIO"></app-title>
+    <ng-container *ngFor="let item of hamburgueres">
+      <app-card-type-a [item]="item"></app-card-type-a>
+    </ng-container>
   </div>
 </div>

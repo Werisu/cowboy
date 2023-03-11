@@ -13,6 +13,7 @@
   --body: #fff;
   --text-menu: #fff;
   --text-body: #494949;
+  --text-secondary: #696969;
   --bg-aux-gray: #f8f9fa;
 }
 
@@ -21,6 +22,7 @@
   --body: #4B4B4B;
   --text-menu: #fff;
   --text-body: #fff;
+  --text-secondary: #fcfcfc;
   --bg-aux-gray: #494949;
   --bs-light-rgb: 33,37,41;
   --bs-body-color: #fff;

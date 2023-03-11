@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Hamburguere } from 'src/app/models/cardapio';
 
 @Component({
   selector: 'app-card-type-a',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-type-a.component.css']
 })
 export class CardTypeAComponent {
+
+  @Input() item!: Hamburguere;
 
 }
