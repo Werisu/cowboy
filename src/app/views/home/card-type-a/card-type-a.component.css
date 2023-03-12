@@ -13,3 +13,9 @@
   font-weight: 400;
   color: var(--text-secondary);
 }
+.preco{
+  color: #17B275;
+}
+.list-group-item{
+  text-transform: capitalize;
+}

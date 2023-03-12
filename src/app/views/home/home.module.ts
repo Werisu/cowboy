@@ -10,6 +10,7 @@ import { MatIconModule } from "@angular/material/icon";
 import { TitleComponent } from './title/title.component';
 import { CardTypeAComponent } from './card-type-a/card-type-a.component';
 import { CardTypeBComponent } from './card-type-b/card-type-b.component';
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { CardTypeBComponent } from './card-type-b/card-type-b.component';
     HomeRoutingModule,
     ComponentesModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    DragDropModule
   ]
 })
 export class HomeModule { }

@@ -5,6 +5,8 @@ export interface Cardapio {
 export interface Hamburguere {
   nome: string
   ingredientes: string
+  optionaisGratis: string[]
+  informacoes: string
   carnes: Carne[]
 }
 

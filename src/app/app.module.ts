@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AddCartComponent } from './views/add-cart/add-cart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddCartComponent
   ],
   imports: [
     BrowserModule,
